@@ -1,0 +1,15 @@
+{
+	// Cloudflare deployment config for the Greenway Shooting Range site.
+	// Used by the Workers Builds flow (and `wrangler deploy`) so the dashboard
+	// only needs a build command — everything else is defined here.
+	"name": "greenway-range",
+	"compatibility_date": "2025-01-01",
+	"compatibility_flags": ["nodejs_compat"],
+
+	// SvelteKit (@sveltejs/adapter-cloudflare) build output:
+	"main": ".svelte-kit/cloudflare/_worker.js",
+	"assets": {
+		"binding": "ASSETS",
+		"directory": ".svelte-kit/cloudflare"
+	}
+}
