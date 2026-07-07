@@ -1,6 +1,6 @@
 {
   "name": "greenway-range",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Website for Greenway Shooting Range, Bozeman MT",
   "private": true,
   "type": "module",

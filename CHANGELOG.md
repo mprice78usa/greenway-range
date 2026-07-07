@@ -2,6 +2,18 @@
 
 All notable changes to the Greenway Shooting Range website.
 
+## [0.2.1] — 2026-07-07
+
+### Changed
+
+- Centered the home hero (logo, tagline, and buttons) for a balanced,
+  symmetrical layout on all screen widths.
+
+### Deployment
+
+- Live on Cloudflare Workers Builds (GitHub auto-deploy from `main`).
+- Added `wrangler.jsonc`; pinned build Node to 22 (Wrangler requirement).
+
 ## [0.2.0] — 2026-07-06
 
 ### Added

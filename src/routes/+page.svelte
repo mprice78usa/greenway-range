@@ -134,6 +134,10 @@
 	.hero-content {
 		position: relative;
 		padding: 5rem 1.5rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
 	}
 
 	.hero-logo {
@@ -153,6 +157,7 @@
 	.hero-actions {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
 		gap: 0.8rem;
 	}
 
